@@ -11,11 +11,11 @@
 
 // basic lab requirements
 #define TEST_INSERT_INORDER
-#define TEST_FIND
-#define TEST_REMOVE
+//#define TEST_FIND
+//#define TEST_REMOVE
 // advanced lab requirements
-#define TEST_FIND_LARGER
-#define TEST_REMOVE_LARGER
+//#define TEST_FIND_LARGER
+//#define TEST_REMOVE_LARGER
 
 int main()
 {
