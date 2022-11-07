@@ -11,11 +11,11 @@
 
 // basic lab requirements
 #define TEST_INSERT_INORDER
-//#define TEST_FIND
-//#define TEST_REMOVE
+#define TEST_FIND
+#define TEST_REMOVE
 // advanced lab requirements
-//#define TEST_FIND_LARGER
-//#define TEST_REMOVE_LARGER
+#define TEST_FIND_LARGER
+#define TEST_REMOVE_LARGER
 
 int main()
 {
@@ -32,6 +32,7 @@ int main()
     for(int i = 0; i < NUM_EVENS; i++)
         fir.insertValue(int_values[i]);
     
+   // fir.display();
         // display the tree, should be even integers in order
     std::cout << " InOrder expected -2 0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30" << std::endl;
     std::cout << "  and actually is " << fir.inOrder() << std::endl;
